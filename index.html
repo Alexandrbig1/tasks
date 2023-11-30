@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>TasksManager</title>
+    <title>TaskManager</title>
     <link rel="stylesheet" href="app.css" />
-    <script type="module" src="dist/app.js"></script>
+    <script type="module" src="dist/index.js"></script>
   </head>
   <body>
     <template id="project-input">
       <form>
         <div class="form-control">
-          <label for="title">Task</label>
+          <label for="title">Title</label>
           <input type="text" id="title" />
         </div>
         <div class="form-control">
@@ -23,7 +23,7 @@
           <label for="people">People</label>
           <input type="number" id="people" step="1" min="0" max="10" />
         </div>
-        <button type="submit">ADD Task</button>
+        <button type="submit">ADD PROJECT</button>
       </form>
     </template>
     <template id="single-project">
