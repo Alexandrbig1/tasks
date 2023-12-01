@@ -8,6 +8,19 @@ html {
 
 body {
   margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #e9ecef;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
 }
 
 label,
@@ -26,7 +39,6 @@ textarea {
   font: inherit;
   padding: 0.2rem 0.4rem;
   width: 100%;
-  max-width: 30rem;
   border: 1px solid #ccc;
 }
 
@@ -38,11 +50,15 @@ textarea:focus {
 
 button {
   font: inherit;
-  background: #ff0062;
-  border: 1px solid #ff0062;
+  background: #CB429F;
+  border: 1px solid #CB429F;
   cursor: pointer;
   color: white;
   padding: 0.75rem 1rem;
+  transition: all 0.3s;
+  border-radius: 4px;
+  width: 92px;
+  align-self: center;
 }
 
 button:focus {
@@ -51,18 +67,20 @@ button:focus {
 
 button:hover,
 button:active {
-  background: #a80041;
-  border-color: #a80041;
+  background: #690375;
+  border-color: #690375;
 }
 
 .projects {
   margin: 1rem;
-  border: 1px solid #ff0062;
+  border: 1px solid #CB429F;
+  display: flex;
+  flex-direction: column;
 }
 
 .projects header {
-  background: #ff0062;
-  height: 3.5rem;
+  background: #CB429F;
+  padding: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,7 +113,7 @@ button:active {
 }
 
 .projects li h2 {
-  color: #ff0062;
+  color: #CB429F;
   margin: 0.5rem 0;
 }
 
@@ -123,6 +141,10 @@ button:active {
 #user-input {
   margin: 1rem;
   padding: 1rem;
-  border: 1px solid #ff0062;
-  background: #f7f7f7;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

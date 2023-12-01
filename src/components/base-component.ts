@@ -1,8 +1,8 @@
 // Component Base Class
-
-export const something = '...';
-
-export default abstract class Component<T extends HTMLElement, U extends HTMLElement> {
+export default abstract class Component<
+  T extends HTMLElement,
+  U extends HTMLElement
+> {
   templateElement: HTMLTemplateElement;
   hostElement: T;
   element: U;
@@ -32,7 +32,7 @@ export default abstract class Component<T extends HTMLElement, U extends HTMLEle
 
   private attach(insertAtBeginning: boolean) {
     this.hostElement.insertAdjacentElement(
-      insertAtBeginning ? 'afterbegin' : 'beforeend',
+      insertAtBeginning ? "afterbegin" : "beforeend",
       this.element
     );
   }
