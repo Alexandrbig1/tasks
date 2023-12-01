@@ -19,10 +19,12 @@ This repository contains my homework project from the Fullstack Developer Bootca
 
 - **TypeScript Mastery:**
   - Utilization of classes, interfaces, enums, types, decorators, and generics for building scalable applications.
-- **Object-Oriented Programming (OOP):**
+- **Advanced OOP Concepts:**
   - Implementation of abstraction, encapsulation, inheritance, composition, and applying UML concepts for designing project architecture.
 - **Project Architecture:**
   - Organizing the project with a clear directory structure, abstract classes, and interfaces to enhance code navigation and maintainability.
+- **Project Bundling with Webpack:**
+  - Organized project structure with the help of webpack, creating a streamlined and efficient development environment.
 - **Version Control:**
   - Applying Git for version control to track changes, collaborate with others, and manage the project's development lifecycle.
 - **Collaboration Tools:**
