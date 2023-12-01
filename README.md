@@ -1,32 +1,45 @@
-# Tasks: typescript
+# **Tasks**: typescript project
 <img align="right" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100"/>
 
 Fullstack Developer Bootcamp [@GoIT](https://goit.global/us/) - ![Alt text](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white) Module
 
 ## Overview
 
-This repository contains my homework project from the Fullstack Developer Bootcamp, where I am focused on mastering TypeScript and exploring advanced Object-Oriented Programming (OOP) concepts. As a part of my homework assignments, I am exploring the fundamentals of TypeScript to enhance my skills in building robust and scalable web applications.
+This repository contains my homework project from the Fullstack Developer Bootcamp, focusing on mastering TypeScript, exploring advanced Object-Oriented Programming (OOP) concepts, and utilizing webpack for project bundling.
+
+## Built With
+
+- ![Alt text](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white)
+- ![Alt text](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+- ![Alt text](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+- ![Alt text](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
+- ![Alt text](https://img.shields.io/badge/Webpack-8DD6F9.svg?style=for-the-badge&logo=Webpack&logoColor=black)
 
 ## Learning Objectives
 
-1. **TypeScript Mastery**
-   - **Classes and Interfaces:** Understanding and implementing classes and interfaces to create well-structured and reusable code.
-   - **Inheritance and Polymorphism:** Extending classes and utilizing polymorphism to promote code reusability and maintainability.
-   - **UML (Unified Modeling Language):** Applying UML concepts to design and visualize the architecture of TypeScript projects.
-1. **Object-Oriented Programming (OOP)**
-   - **Abstraction and Encapsulation:** Leveraging abstraction to hide complex implementation details and encapsulating related functionalities within classes.
-   - **Inheritance and Composition:** Effectively using inheritance to promote code reuse and employing composition for flexible component composition.
-1. **Project Architecture**
-   - **Directory Structure:** Organizing the project with a clear directory structure to enhance code navigation and maintainability.
-   - **Abstract Classes and Interfaces:** Utilizing abstract classes and interfaces to define blueprints for related classes, fostering a modular and scalable architecture.
-1. **GitHub Collaboration**
-   - **Version Control:** Applying Git for version control to track changes, collaborate with others, and manage the project's development lifecycle.
-   - **Collaboration Tools:** Utilizing GitHub for effective collaboration, code reviews, and project management.
+- **TypeScript Mastery:**
+  - Utilization of classes, interfaces, enums, types, decorators, and generics for building scalable applications.
+- **Object-Oriented Programming (OOP):**
+  - Implementation of abstraction, encapsulation, inheritance, composition, and applying UML concepts for designing project architecture.
+- **Project Architecture:**
+  - Organizing the project with a clear directory structure, abstract classes, and interfaces to enhance code navigation and maintainability.
+- **Version Control:**
+  - Applying Git for version control to track changes, collaborate with others, and manage the project's development lifecycle.
+- **Collaboration Tools:**
+  - Utilizing GitHub for effective collaboration, code reviews, and project management.
 
-## Repository Structure
+## Project Architecture
 
-- `src/`: Contains the TypeScript source code for various assignments, demonstrating the application of OOP principles and TypeScript features.
-- [Other directories and files]: Includes additional directories and files related to specific projects or exercises, showcasing practical implementations of learned concepts.
+- **Directory Structure:**
+  - Organized project structure in the `src/` directory for TypeScript source code.
+- **Webpack:**
+  - Project bundling and module system implementation.
+
+## Features
+
+- **Task Management:**
+  - Create tasks with titles, descriptions, and the required number of participants.
+  - Move tasks between active and finished projects through drag-and-drop functionality.
 
 ## Languages and Tools:
 
